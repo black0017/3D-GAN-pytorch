@@ -9,7 +9,7 @@ Responsible implementation of 3D-GAN NIPS 2016 paper that can be found https://p
 ## Detailed Info
 
 ### Generator summary
-----------------------------------------------------------------
+
         Layer (type)               Output Shape         Param #
 ================================================================
             Linear-1             [-1, 1, 32768]       6,586,368
@@ -24,20 +24,20 @@ Responsible implementation of 3D-GAN NIPS 2016 paper that can be found https://p
              ReLU-10       [-1, 64, 32, 32, 32]               0
   ConvTranspose3d-11        [-1, 1, 64, 64, 64]           4,096
           Sigmoid-12        [-1, 1, 64, 64, 64]               0
-================================================================
+
 Total params: 17,601,408
 Trainable params: 17,601,408
 Non-trainable params: 0
-----------------------------------------------------------------
+
 Input size (MB): 0.00
 Forward/backward pass size (MB): 67.25
 Params size (MB): 67.14
 Estimated Total Size (MB): 134.39
-----------------------------------------------------------------
+
 
 ### Discriminator summary
 
-----------------------------------------------------------------
+
         Layer (type)               Output Shape         Param #
 ================================================================
             Conv3d-1       [-1, 64, 32, 32, 32]           4,096
@@ -54,16 +54,15 @@ Estimated Total Size (MB): 134.39
         LeakyReLU-12         [-1, 512, 4, 4, 4]               0
            Linear-13                    [-1, 1]          32,769
           Sigmoid-14                    [-1, 1]               0
-================================================================
+
 Total params: 11,048,833
 Trainable params: 11,048,833
 Non-trainable params: 0
-----------------------------------------------------------------
 Input size (MB): 1.00
 Forward/backward pass size (MB): 63.75
 Params size (MB): 42.15
 Estimated Total Size (MB): 106.90
-----------------------------------------------------------------
+
 
 
 
