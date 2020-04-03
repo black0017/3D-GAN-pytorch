@@ -11,7 +11,7 @@ Responsible implementation of 3D-GAN NIPS 2016 paper that can be found https://p
 ### Generator summary
 
         Layer (type)               Output Shape         Param #
-================================================================
+
             Linear-1             [-1, 1, 32768]       6,586,368
    ConvTranspose3d-2         [-1, 256, 8, 8, 8]       8,388,608
        BatchNorm3d-3         [-1, 256, 8, 8, 8]             512
