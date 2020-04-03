@@ -1,7 +1,7 @@
 # 3D GAN Pytorch
 **Responsible** implementation of 3D-GAN NIPS 2016 paper that can be found https://papers.nips.cc/paper/6096-learning-a-probabilistic-latent-space-of-object-shapes-via-3d-generative-adversarial-modeling.pdf
 
-We also included our **DCGAN** implementation since **3D-GAN** is the natural extension of DCGAN in 3D space. For completeness a Vanilla GAN is also included. All models all available in Google COLLAB. You can train them with the same training script that exists in train.py
+We did our best to follow the original guidelines based on the papers. However, it is always good to try to reproduce the publication results from the original work. We also included our **DCGAN** implementation since **3D-GAN** is the natural extension of DCGAN in 3D space. For completeness a Vanilla GAN is also included. All models all available in Google COLLAB. You can train them with the same training script that exists in train.py
 
 ## Google collab instructions and usage
 
@@ -19,6 +19,12 @@ Params size (MB): 67.14/42.15
 
 Estimated Total Size (MB): 134.39/106.90
 
+## References
+[1] Wu, J., Zhang, C., Xue, T., Freeman, B., & Tenenbaum, J. (2016). Learning a probabilistic latent space of object shapes via 3d generative-adversarial modeling. In Advances in neural information processing systems (pp. 82-90).
+
+[2] Radford, A., Metz, L., & Chintala, S. (2015). Unsupervised representation learning with deep convolutional generative adversarial networks. arXiv preprint arXiv:1511.06434.
+
+[3] Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., ... & Bengio, Y. (2014). Generative adversarial nets. In Advances in neural information processing systems (pp. 2672-2680).
 
 
 ## Support 
