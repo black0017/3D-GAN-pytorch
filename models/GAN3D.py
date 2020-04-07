@@ -3,7 +3,8 @@ import torch.nn as nn
 from torchsummary import summary
 
 """
-Implementation based on original paper NeurIPS 2016 https://papers.nips.cc/paper/6096-learning-a-probabilistic-latent-space-of-object-shapes-via-3d-generative-adversarial-modeling.pdf
+Implementation based on original paper NeurIPS 2016
+https://papers.nips.cc/paper/6096-learning-a-probabilistic-latent-space-of-object-shapes-via-3d-generative-adversarial-modeling.pdf
 """
 
 
