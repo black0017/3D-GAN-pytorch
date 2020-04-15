@@ -3,6 +3,8 @@
 
 We did our best to follow the original guidelines based on the papers. However, it is always good to try to reproduce the publication results from the original work. We also included our **DCGAN** implementation since **3D-GAN** is the natural extension of DCGAN in 3D space. For completeness, a Vanilla GAN is also included. All models all available in Google COLLAB. You can train them with the same training script that exists in train_gans.py
 
+Data loaders to be updated soon.
+
 ## Google collab instructions and Usage
 1. Go to https://colab.research.google.com
 2. **```File```** > **```Upload notebook...```** > **```GitHub```** > **```Paste this link:``` https://github.com/black0017/3D-GAN-pytorch/blob/master/notebooks/3D_GAN_pytorch.ipynb**
