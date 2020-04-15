@@ -1,4 +1,4 @@
-# 3D GAN Pytorch
+# 3D GAN Pytorch (Learning a Probabilistic Latent Space of ObjectShapes via 3D Generative-Adversarial Modeling)
 **Responsible** implementation of 3D-GAN NIPS 2016 paper that can be found https://papers.nips.cc/paper/6096-learning-a-probabilistic-latent-space-of-object-shapes-via-3d-generative-adversarial-modeling.pdf
 
 We did our best to follow the original guidelines based on the papers. However, it is always good to try to reproduce the publication results from the original work. We also included our **DCGAN** implementation since **3D-GAN** is the natural extension of DCGAN in 3D space. For completeness, a Vanilla GAN is also included. All models all available in Google COLLAB. You can train them with the same training script that exists in train_gans.py
