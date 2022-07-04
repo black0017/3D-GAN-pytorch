@@ -9,7 +9,7 @@ https://papers.nips.cc/paper/6096-learning-a-probabilistic-latent-space-of-objec
 
 
 class Discriminator(torch.nn.Module):
-    def __init__(self, in_channels=3, dim=64, out_conv_channels=512):
+    def __init__(self, in_channels=1, dim=64, out_conv_channels=512):
         super(Discriminator, self).__init__()
         conv1_channels = int(out_conv_channels / 8)
         conv2_channels = int(out_conv_channels / 4)
